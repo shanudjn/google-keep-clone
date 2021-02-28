@@ -54,13 +54,11 @@ export default function App() {
     setNotes([...notes, newNote]);
   }
   function handleUnpinNote(note) {
-    // console.log(note);
     note.isPinned = !note.isPinned;
-    // console.log(note);
+
     setNotes([...notes]);
   }
   function handlePinNote(note) {
-    // console.log(note);
     note.isPinned = !note.isPinned;
     setNotes([...notes]);
   }
