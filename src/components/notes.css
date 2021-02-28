@@ -1,0 +1,16 @@
+.div--pinned {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 400px;
+}
+.note-card {
+  margin: 1rem;
+  padding: 1rem;
+  min-width: 200px;
+  max-width: 300px;
+  box-shadow: 0 0 10px #d3d3d3;
+}

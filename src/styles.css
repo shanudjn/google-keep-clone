@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+.left {
+  flex-direction: column;
+  flex: 0.1 0.5 200px;
+  /* background-color: red; */
+}
+.right {
+  flex: 1 1 auto;
+  /* background-color: green; */
+}
+.form {
+  /* background-color: red; */
+  /* max-width: 360px; */
+  /* margin: 1rem auto 200px; */
+}

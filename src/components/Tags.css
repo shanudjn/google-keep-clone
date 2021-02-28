@@ -1,0 +1,24 @@
+.div--tags {
+  /* background-color: red; */
+  margin: 1rem;
+  padding: 1rem;
+}
+.div--tags li {
+  border: 1px solid #d3d3d3;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.div--tags li {
+  list-style: none;
+  margin: 1rem;
+}
+.div--tags button {
+  padding: 1rem;
+  /* margin: 1rem; */
+  width: 100%;
+}
+.div--tags input {
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
